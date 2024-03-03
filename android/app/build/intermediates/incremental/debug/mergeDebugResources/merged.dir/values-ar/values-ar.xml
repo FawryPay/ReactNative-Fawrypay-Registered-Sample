@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="transaction_purpose">
+        <item>Fund my own Wallet</item>
+        <item>Business to provide</item>
+        <item>Business to provide</item>
+        <item>Business to provide</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string name="FOR">لأجل</string>
+    <string name="Other_Credit_Card">بطاقة ائتمان أخرى</string>
+    <string name="STR_BRANCH">الفرع</string>
+    <string name="STR_CODE">الكود :</string>
+    <string name="STR_COPY_TO_CLIPBOARD">نسخ الكود</string>
+    <string name="STR_COURIER_WITH">ساعي</string>
+    <string name="STR_DELIVERY_FEES">رسوم التوصيل</string>
+    <string name="STR_DELIVERY_TYPE">نوع التوصيل</string>
+    <string name="STR_PICKUP_FEES">Pickup fees</string>
+    <string name="STR_POINTS">نقاط</string>
+    <string name="STR_PURCHASE_VOUCHER">قسيمة شراء</string>
+    <string name="STR_PURCHASE_VOUCHER_DESCRIPTION">يمكنك استخدام رمز القسيمة أدناه</string>
+    <string name="STR_SERVICE_TYPE">نوع الخدمة</string>
+    <string name="STR_VOUCHER_ERROR">لا يمكنك إضافة قسيمة باستخدام طريقة الدفع الحاليه</string>
+    <string name="STR_WRONG">هناك خطأ</string>
+    <string name="STR_YOU_HAVE">انت تمتلك </string>
+    <string name="ToU_error">ToU amount field is mandatory</string>
+    <string name="_0">0</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="add_new_address">أضف عنوان جديد</string>
+    <string name="add_new_card">إضافة بطاقة جديدة</string>
+    <string name="add_new_card_underlined"><u>إضافة بطاقة</u></string>
+    <string name="add_tips">أضف بقشيش</string>
+    <string name="add_voucher">أضف قسيمة</string>
+    <string name="add_your_card_details">أضف تفاصيل بطاقتك</string>
+    <string name="additional_address_details">معلومات إضافية</string>
+    <string name="address">العنوان</string>
+    <string name="address_book">دليل العناوين</string>
+    <string name="address_details">تفاصيل العنوان</string>
+    <string name="admin_fees">مصاريف ادارية</string>
+    <string name="admin_fees_is">المصاريف الادارية</string>
+    <string name="agree_to_debit_credit_card_payment_terms_conditions"><![CDATA[الموافقة على شروط وأحكام الدفع ببطاقة الخصم / الائتمان]]></string>
+    <string name="agree_to_debit_creedit_card_payment_terms_amp_conditions">أوافق على الشروط والأحكام</string>
+    <string name="amount">القيمة</string>
+    <string name="amount_of_money_to_redeem">القيمة المالية للاسترداد</string>
+    <string name="apartment">شقة</string>
+    <string name="area_man">الحى*</string>
+    <string name="available_expires_on">متاح وينتهي العمل بها في</string>
+    <string name="beano_s_cash_balance">Beano\'s Cash Balance</string>
+    <string name="beanos_balance">>رصيد بينوس كاش</string>
+    <string name="beanos_card">كارت بينوس</string>
+    <string name="beanos_cash_balance">رصيد بينوس النقدي</string>
+    <string name="beanos_order_number">رقم الطلب من بينوس</string>
+    <string name="beanoscashbalance">رصيد بينوس النقدي</string>
+    <string name="beneficiary_name">اسم المستفيد</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="branch">الفرع:</string>
+    <string name="building_man">مبنى*</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cancel_bs">إلغاء</string>
+    <string name="cancel_u"><u>إلغاء</u></string>
+    <string name="cancelled">تم الإلغاء</string>
+    <string name="card_detail">تفاصيل البطاقة</string>
+    <string name="card_details">تفاصيل الكارت</string>
+    <string name="card_holder_name">اسم مالك البطاقة*</string>
+    <string name="card_number">رقم البطاقة*</string>
+    <string name="card_pin">رقم التعريف الشخصي للبطاقة</string>
+    <string name="card_serial_number">الرقم التسلسلي للبطاقة</string>
+    <string name="cart">عربة التسوق</string>
+    <string name="cashback_amount">CashBack Amount</string>
+    <string name="cashback_error">Cashback field is mandatory</string>
+    <string name="change">تغيير</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="checkout">Checkout</string>
+    <string name="choose_card">اختر البطاقة</string>
+    <string name="choose_courier">Choose Courier</string>
+    <string name="choose_delivery_location">اختر موقع التسليم</string>
+    <string name="choose_payment_method">اختر وسيلة الدفع</string>
+    <string name="choose_your_suitable_e_payment">اختر طريقة الدفع الإلكتروني المناسبة لك</string>
+    <string name="city_man">مدينة*</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="click_here">انقر هنا</string>
+    <string name="close">قريب</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="confirm_card_pin">قم بتأكيد رقم التعريف الشخصي للبطاقة</string>
+    <string name="confirm_cvv">تأكيد CVV *</string>
+    <string name="confirm_delete">تأكيد الحذف</string>
+    <string name="confirm_payment">تأكيد الدفع</string>
+    <string name="continue_btn">استمرار</string>
+    <string name="copied_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="cost_order_amount">قيمة الطلب</string>
+    <string name="coupon_is_not_available">Coupon is not available </string>
+    <string name="courier">ساعي*</string>
+    <string name="create">أنشئ</string>
+    <string name="create_voucher">أنشئ قسيمة</string>
+    <string name="created_on">أنشئ في</string>
+    <string name="credit_card">كارت ائتمان</string>
+    <string name="currency_code">جم</string>
+    <string name="cvv_info">3 ارقام على ظهر الكارت</string>
+    <string name="cvv_man">الرقم السري*</string>
+    <string name="cvv_mismatch">عدم تطابق CVV</string>
+    <string name="date_amp_time">التاريخ والوقت:</string>
+    <string name="debit_credit_card">بطاقة الخصم / الائتمان</string>
+    <string name="delete">إمسح</string>
+    <string name="deliver_to_current_location">تسليم إلى الموقع الحالي</string>
+    <string name="deliver_to_different_location">تسليم إلى موقع مختلف</string>
+    <string name="delivering_to">يسلم الى</string>
+    <string name="delivery_type">نوع التوصيل*</string>
+    <string name="deposit_to_wallet">إيداع في المحفظة</string>
+    <string name="different_card">بطاقة مختلفة؟</string>
+    <string name="dinning_in_fees">Dinning in fees</string>
+    <string name="disable_points">سوف تتجاهل نقاط الخصم</string>
+    <string name="disable_voucher_code">سوف تتجاهل كود القسيمة
+</string>
+    <string name="discount">خصم</string>
+    <string name="do_not_have_enough_balance">للاسف لا يوجد رصيد كاف</string>
+    <string name="done">تم</string>
+    <string name="down_payment">Down payment</string>
+    <string name="down_payment_error">Down payment field is mandatory</string>
+    <string name="down_payment_more_than_order">المبلغ المقدم لا يمكن ان يكون اكبر من قيمة الطلب</string>
+    <string name="edit_address"><u>تعديل العنوان</u></string>
+    <string name="edit_card_u"><u>تحرير البطاقة</u></string>
+    <string name="egp">ج.م</string>
+    <string name="egp_month">جم/شهر</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="email_star">البريد الالكتروني*:</string>
+    <string name="enjoy">استمتع</string>
+    <string name="enter">يدخل</string>
+    <string name="enter_amount_of_money">ادخل القيمة المالية</string>
+    <string name="enter_area">أدخل الحى</string>
+    <string name="enter_city">أدخل المدينة</string>
+    <string name="enter_code_here">أدخل الرمز هنا</string>
+    <string name="enter_cvv">أدخل CVV</string>
+    <string name="enter_email">أدخل البريد الإلكتروني</string>
+    <string name="enter_governorate">أدخل المحافظة</string>
+    <string name="enter_mobile_number">أدخل رقم الهاتف المحمول</string>
+    <string name="enter_otp">أدخل Otp</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="enter_points">أدخل النقاط</string>
+    <string name="enter_street">أدخل اسم المنطقه/الشارع</string>
+    <string name="enter_valid_OTP">أدخل كود صحيح</string>
+    <string name="enter_valid_cvv">أدخل CVV صحيح</string>
+    <string name="enter_valid_password">برجاء ادخال رقم سري صحيح</string>
+    <string name="enter_valid_phone">أدخل رقم هاتف صحيح</string>
+    <string name="error_accept_terms">تحتاج لقبول الشروط أولا</string>
+    <string name="error_address_type">اختر نوع العنوان</string>
+    <string name="error_area">أدخل المنطقة</string>
+    <string name="error_building">أدخل اسم المبنى</string>
+    <string name="error_city">أدخل اسم المدينة</string>
+    <string name="error_email_address">أدخل البريد الالكتروني</string>
+    <string name="error_empty_coupon_code">أدخل رمز قسيمة صالحًا</string>
+    <string name="error_empty_redeem">Enter valid redeem</string>
+    <string name="error_full_name">أدخل الاسم الكامل</string>
+    <string name="error_governorate">أدخل اسم المحافظة</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="error_no_area_found">لم يتم العثور على منطقة.</string>
+    <string name="error_no_street_found">لم يتم العثور على شوارع.</string>
+    <string name="error_phone_number">أدخل رقم الهاتف</string>
+    <string name="error_street_name">أدخل اسم الشارع</string>
+    <string name="error_valid_card">أدخل رقم بطاقة صالح</string>
+    <string name="error_valid_card_confirm_pin">أدخل رقم تعريف شخصيًا صالحًا للبطاقة</string>
+    <string name="error_valid_card_name">أدخل اسم مالك بطاقه صالح</string>
+    <string name="error_valid_card_pin">أدخل رقم تعريف شخصيًا صالحًا للبطاقة</string>
+    <string name="error_valid_expiry_date">أدخل تاريخ انتهاء صالحًا</string>
+    <string name="expired">انتهى</string>
+    <string name="expired_on">إنتهى في</string>
+    <string name="expires_in">ينتهي في</string>
+    <string name="expires_on">ينتهي في</string>
+    <string name="expiry_date">*تاريخ الانتهاء (شهر / سنة)</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="failure">عملية خاطئة</string>
+    <string name="fawry_fees">رسوم فوري</string>
+    <string name="fawry_order_number">رقم طلب فوري</string>
+    <string name="fawry_pay">فوري باي</string>
+    <string name="first_installment_date">First installment date</string>
+    <string name="fixed_fee">رسوم ثابتة</string>
+    <string name="fixed_here">ثابت هنا. إصلاح في الإعدادات.</string>
+    <string name="floor">الأرض</string>
+    <string name="for_a_faster_checkout_in_the_future_save_your_card_details">لإجراء عملية دفع أسرع في المستقبل ، احفظ تفاصيل بطاقتك</string>
+    <string name="forsa_customer_mobile">برجاء إضافة موبايل عميل فرصة</string>
+    <string name="forsa_title">فرصة</string>
+    <string name="full_name_man">الاسم الكامل*</string>
+    <string name="fund_my_own_wallet">شحن محفظتي</string>
+    <string name="gift_voucher">قسيمة خصم</string>
+    <string name="governorate_man">محافظة*</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi">مرحبا</string>
+    <string name="hint_additional_details">معلومات اضافية</string>
+    <string name="hint_street">شارع / معلومات اضافية</string>
+    <string name="home">Home</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="if_you_didn_t_know_where_to_pay">إذا كنت لا تعرف من أين تدفع.</string>
+    <string name="if_you_didn_t_receive_code">إذا لم تستلم الكود؟</string>
+    <string name="insert_down_payment_amount">أدخل مبلغ الدفعة الأولى</string>
+    <string name="installments">تقسيط</string>
+    <string name="installments_available">الخطط المتاحة</string>
+    <string name="interest">الفائدة</string>
+    <string name="interest_rate">نسبة الفائدة</string>
+    <string name="invalid_address">العنوان الخاص بك غير صحيح</string>
+    <string name="invalid_coupon_code">كود غير صحيح</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="items_tax">Items tax</string>
+    <string name="landmark_notes_etc">معلم ، ملاحظات إضافية ، إلخ.</string>
+    <string name="last_installment_date">آخر تاريخ قسط</string>
+    <string name="link_my_beanos_card_now">اربط كارت بينوس الخاص بي الان</string>
+    <string name="loading">جار التحميل</string>
+    <string name="loan_number">رقم القرض</string>
+    <string name="location_permission_required">مطلوب إذن الموقع لجلب تفاصيل عنوانك</string>
+    <string name="locatioon_services_are_inadequates">إعدادات الموقع غير كافية ولا يمكن أن تكون كذلك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_clicked">تم النقر على تسجيل الدخول</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="loyalty_points">نقاط الولاء</string>
+    <string name="make_it_default_address">اجعله العنوان الافتراضي</string>
+    <string name="make_it_default_card">اجعلها البطاقة الاساسية</string>
+    <string name="make_payment">قم بالدفع</string>
+    <string name="make_use_of_your_points_in_your_in_store_purcheses">استخدم نقاطك في مشترياتك في المتجر</string>
+    <string name="make_use_of_your_points_in_your_store_purchases">إستخدم نقاطك للشراء من فروعنا</string>
+    <string name="manage_cards">إدارة البطاقات</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="maximum">الحد الأقصي</string>
+    <string name="maximum_downpayment_is_80_of_the_product_price">(Maximum downPayment is 80% of the product price)</string>
+    <string name="minimum">الحد الأدنى</string>
+    <string name="minimum_amnt_to_redeem">* قيمة الحد الأدنى من النقاط للاستبدال</string>
+    <string name="mobile_no">رقم الهاتف*:</string>
+    <string name="mobile_number">رقم الهاتف المحمول</string>
+    <string name="mobile_number_cant_be_empty">لا يمكن أن يكون رقم الهاتف المحمول فارغًا</string>
+    <string name="mobile_wallet">المحفظة الإلكترونية</string>
+    <string name="month">شهر</string>
+    <string name="monthly_tenure_value">Monthly tenure value</string>
+    <string name="months">شهور</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="my_address_book">دفتر العناوين الخاص بي</string>
+    <string name="my_points">نقاطي</string>
+    <string name="my_wallet">محفظتي</string>
+    <string name="name">اسم</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"فتح لائحة التنقل"</string>
+    <string name="navigate_to_otp">navigate to otp</string>
+    <string name="new_address">عنوان جديد</string>
+    <string name="no_cards_found_you_can_add_card_by_clicking_on_the_button_add_new_card">لم يتم العثور على بطاقات. يمكن إضافة بطاقة جديدة عن طريق الضغط على الزر الذي بالأسفل.</string>
+    <string name="no_data_found">لا يوجد بايانات متوفره</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="no_location_selected">لم يتم تحديد الموقع</string>
+    <string name="no_payment_method_selected">لم يتم تحديد طريقة الدفع</string>
+    <string name="no_points_redeem">عدد النقاط المراد استبدالها</string>
+    <string name="not_enough_points_pmt">من فضلك أدخل قيمة مالية كافية</string>
+    <string name="off">OFF</string>
+    <string name="offer_voucher">قسيمة العرض</string>
+    <string name="ok">حسنا</string>
+    <string name="order_amount">قيمة الطلب</string>
+    <string name="order_summary">Order summary</string>
+    <string name="other">Other</string>
+    <string name="otp_sent_successfully">OTP is sent successfully</string>
+    <string name="paid">مدفوع</string>
+    <string name="password">كلمه السر</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="pay_in_store">ادفع في المتجر</string>
+    <string name="pay_part_of_your_order_using_your">إدفع جزء من الطلب بإستخدام</string>
+    <string name="pay_the_full_amount">ادفع المبلغ كاملاً</string>
+    <string name="pay_upon_delivery">ادفع عند التوصيل</string>
+    <string name="pay_your_order_using_fawry_order_number_before">ادفع طلبك باستخدام رقم الطلب من قبل فوري</string>
+    <string name="payment">دفع</string>
+    <string name="payment_done">تم الدفع</string>
+    <string name="payment_method">طريقة الدفع او السداد</string>
+    <string name="payment_status">حالة الدفع</string>
+    <string name="payment_summary">تفاصيل المدفوعات</string>
+    <string name="percent_interest">٪ فائدة</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="personal_details">التفاصيل الشخصية</string>
+    <string name="phone_number">رقم التليفون</string>
+    <string name="phone_number_man">رقم التليفون*</string>
+    <string name="picked_up">Picked-Up</string>
+    <string name="place_order">مكان الامر</string>
+    <string name="places_autocomplete_clear_button">مسح البحث</string>
+    <string name="places_autocomplete_label">اختيار مكان</string>
+    <string name="places_autocomplete_no_results_for_query">لم يتم العثور على نتائج عن %1$s</string>
+    <string name="places_autocomplete_search_hint">بحث</string>
+    <string name="places_cancel">إلغاء</string>
+    <string name="places_powered_by_google">‏تدعمه Google</string>
+    <string name="places_search_error">يتعذر تحميل نتائج البحث.</string>
+    <string name="places_try_again">إعادة المحاولة</string>
+    <string name="plan_details">Plan details</string>
+    <string name="plans_dont_support_downpayment">هذه خطط التقسيط لا تدعم الدفع مقدما"</string>
+    <string name="please__select_payment_method">الرجاء تحديد طريقة الدفع</string>
+    <string name="please_accept_terms">من فضلك وافق على الشروط والاحكام اولا</string>
+    <string name="please_add_souhoola_customer_number">Please add Souhoola customer number</string>
+    <string name="please_add_souhoola_password">Please add Souhoola password</string>
+    <string name="please_add_value_customer_number">أضف رقم مسجل لدي فاليو</string>
+    <string name="please_enter_beneficiary_name">من فضلك ادخل اسم المستفيد</string>
+    <string name="please_enter_correct_amount_max">* من فضلك ادخل قيمة اقل من او تساوي مجموع النقاط الكلي</string>
+    <string name="please_enter_correct_amount_min">* من فضلك ادخل قيمة اكبر او تساوي الادني للنقاط</string>
+    <string name="please_enter_correct_email_address">من فضلك أدخل بريد إلكتروني صحيح</string>
+    <string name="please_enter_correct_phone_number">من فضلك أدخل رقم هاتف صحيح</string>
+    <string name="please_enter_right_amnt">من فضلك ادخل القيمة الصحيحة</string>
+    <string name="please_enter_sender_name">من فضلك ادخل اسم الراسل / مالك البطاقة</string>
+    <string name="please_enter_valu_customer_code">الرجاء إدخال رمز عميل Valu</string>
+    <string name="please_select_address_first">الرجاء تحديد العنوان أولاً.</string>
+    <string name="please_select_address_valid_courier">الرجاء تحديد البريد السريع أولاً.</string>
+    <string name="please_select_area_first">الرجاء تحديد hلمنطقه أولاً</string>
+    <string name="please_select_card_first">الرجاء تحديد البطاقة أولاً</string>
+    <string name="please_select_city_first">الرجاء تحديد المدينة أولاً</string>
+    <string name="please_select_governorate_first">الرجاء تحديد المحافظة أولا</string>
+    <string name="please_select_plan_first">الرجاء تحديد خطة أولا.</string>
+    <string name="pleasewait">أرجو الإنتظار..</string>
+    <string name="pls_enter_valid_amnt">من فضلك ادخل القيمة الصحيحة</string>
+    <string name="pmnt_method_not_available">طريقة الدفع هذه غير متاحة</string>
+    <string name="pnts_added_successfully">تم إضافة النقاط بنجاح</string>
+    <string name="pnts_removed_successfully">تم إزالة النقاط بنجاح</string>
+    <string name="point">نقطة</string>
+    <string name="points">نقط</string>
+    <string name="points_history">سجل النقاط</string>
+    <string name="powered_by">مقدم بواسطة</string>
+    <string name="proceed_to_pay">المضي قدما في الدفع</string>
+    <string name="pts">نقاط</string>
+    <string name="receipt">إيصال</string>
+    <string name="redeem_points">استبدال النقاط</string>
+    <string name="redeemed">مخلص</string>
+    <string name="redeemed_on">استحق في</string>
+    <string name="redeemed_points">النقاط المستردة</string>
+    <string name="refine_location"><u>صقل الموقع</u></string>
+    <string name="remaining_pnts">القيمة المتبقية</string>
+    <string name="remove"><u>يزيل</u></string>
+    <string name="remove_address">إزالة العنوان</string>
+    <string name="remove_card_u"><u>إزالة البطاقة</u></string>
+    <string name="resend_code">أعد الإرسال</string>
+    <string name="save_address">حفظ العنوان</string>
+    <string name="save_card">حفظ البطاقة</string>
+    <string name="save_to_my_account">حفظ في حسابي</string>
+    <string name="saved_cards">الكروت المحفوظة</string>
+    <string name="scan_qr">مسح QR</string>
+    <string name="scan_qr_code_to_pay">امسح رمز الاستجابة السريعة للدفع</string>
+    <string name="scheduled_date">التاريخ المقرر</string>
+    <string name="search_for_area_street_name">ابحث عن المنطقة واسم الشارع</string>
+    <string name="search_for_location">ابحث عن موقع</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="select">يختار</string>
+    <string name="select_address">حدد العنوان</string>
+    <string name="select_installment_plan">حدد خطة التقسيط</string>
+    <string name="select_installment_plan_first">اختر خطة تقسيط اولا</string>
+    <string name="select_location_on_map">حدد الموقع على الخريطة</string>
+    <string name="selected_installment_plan">خطة التقسيط المختارة</string>
+    <string name="selected_location">الموقع المحدد</string>
+    <string name="send_notification">إرسال الإخطار</string>
+    <string name="sender_name">إسم الراسل / مالك البطاقة*</string>
+    <string name="service">الخدمة</string>
+    <string name="session_expired">جلسة العمل الخاصة بك قد انتهت
+</string>
+    <string name="session_expired_error">لسوء الحظ ، انتهت صلاحية الجلسة ، تحتاج إلى إعادة تسجيل الدخول.</string>
+    <string name="settings">إعدادات</string>
+    <string name="shipping_type">نوع الشحن</string>
+    <string name="sohola_title">SOUHOOLA</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_digit_verification_code_subtitle">أدخل الكود المكون من 6 ارقام الذي تم ارساله لرقم الهاتف</string>
+    <string name="street">الشارع*</string>
+    <string name="street_name_man">اسم المنطقه/الشارع*</string>
+    <string name="submit">إدخال</string>
+    <string name="subtotal">المجموع الفرعي</string>
+    <string name="success">عملية ناجحة</string>
+    <string name="sure_delete_address">هل أنت متأكد أنك تريد إزالة هذا العنوان؟</string>
+    <string name="sure_delete_card">هل أنت متأكد أنك تريد حذف هذه البطاقة؟</string>
+    <string name="tax">ضريبة</string>
+    <string name="tax_15">الضرائب (15٪)</string>
+    <string name="taxes">الضرائب</string>
+    <string name="thank_you_for_choosing_beanos">شكرا لإختيارك بينوس</string>
+    <string name="thank_you_for_choosing_fawry">شكرا لاختيارك فوري</string>
+    <string name="thank_you_for_paying_by_credit_card">شكرا للدفع عن طريق كارت الائتمان</string>
+    <string name="thank_you_order_paid">شكرا لأختيارك فوري تم دفع الفاتورة بنجاح.</string>
+    <string name="this_card_doesn_t_support_installments">هذا الكارت لا يدعم التقسيط.</string>
+    <string name="this_card_is_not_supported">هذا الكارت لا يدعم طريقة الدفع تلك</string>
+    <string name="tips">بقشيش</string>
+    <string name="tips_amount">قيمة البقشيش</string>
+    <string name="tips_value">قيمة البقشيش</string>
+    <string name="total">مجموع</string>
+    <string name="total_amount">القيمة الاجمالية</string>
+    <string name="total_beano_s_cash_balance">رصيد بينوس كاش</string>
+    <string name="total_cost">المبلغ الإجمالي</string>
+    <string name="total_financed_amount">اجمالي مبلغ التمويل</string>
+    <string name="total_points">جميع النقاط</string>
+    <string name="total_points_in_my_account">جميع النقاط في الحساب</string>
+    <string name="tou_amount">TOU Amount</string>
+    <string name="transaction_purpose">غرض التحويل</string>
+    <string name="underlined_create_voucher"><u>أنشئ قسيمة</u></string>
+    <string name="unpaid">في إنتظار تأكيد الدفع</string>
+    <string name="up_front_fees"> مصاريف ادارية</string>
+    <string name="updating_installments_plans">جاري تحديث خطط التقسيط طبقا لتعديلاتك</string>
+    <string name="use_this_card">استخدم هذا الكارت</string>
+    <string name="user_data">بيانات المستخدم</string>
+    <string name="valid_till_end_of_this_week_and_this_code">، برجاء استخدام هذا الرمز </string>
+    <string name="valu_customer_code">كود العميل valU</string>
+    <string name="valu_title">فاليو</string>
+    <string name="value">القيمة:</string>
+    <string name="verify">تحقق</string>
+    <string name="verify_payment_note">بعد دفع الاوردر بالمحفظة إضغط علي زر تحقق</string>
+    <string name="voucher_added_successfully">تم إضافة قسيمة الخصم بنجاح</string>
+    <string name="voucher_code">رمز القسيمة</string>
+    <string name="voucher_removed_successfully">تم إزالة قسيمة الخصم بنجاح</string>
+    <string name="voucher_value">قيمة القسيمه</string>
+    <string name="vouchers">قسائم</string>
+    <string name="vouchers_history">سجل القسائم</string>
+    <string name="vouchers_values">قيم القسائم</string>
+    <string name="welcome_home">مرحبا بك في البيت</string>
+    <string name="while_checking_out"> اثناء التحقق</string>
+    <string name="will_be_paid_cash_upon_receiving_the_order">*سيتم الدفع نقداً عند استلام الطلب</string>
+    <string name="work">Work</string>
+    <string name="xxxx">xxxx -</string>
+    <string name="yellow_card">Yellow Card</string>
+    <string name="you_cant_pay_full_amnt">للاسف لا يمكن دفع القيمة كاملة من نقاط الخصم بينما طريقة الدفع المستخدمة هو كارت الائتمان</string>
+    <string name="you_don_t_have_enough_balance_to_proceed">لا تملك رصيد كاف</string>
+    <string name="you_entered_max">* برجاء ملاحظة أنك أدخلت اقصي قيمة مستحقة</string>
+    <string name="your_current_balance">حسابك الحالي</string>
+    <string name="your_payment_has_been_failed">للأسف عملية غير ناجحة بسبب:</string>
+</resources>

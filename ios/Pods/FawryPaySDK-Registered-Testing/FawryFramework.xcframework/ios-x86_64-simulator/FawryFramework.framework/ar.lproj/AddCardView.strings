@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Card Number*"; ObjectID = "D7L-P4-7Yj"; */
+"D7L-P4-7Yj.placeholder" = "رقم البطاقة*";
+
+/* Class = "UITextField"; placeholder = "Confirm CVV*"; ObjectID = "bmd-zz-t4L"; */
+"bmd-zz-t4L.placeholder" = "تأكيد CVV *";
+
+/* Class = "UITextField"; placeholder = "Expiry Date(mm/yy)*"; ObjectID = "g8A-qU-b3P"; */
+"g8A-qU-b3P.placeholder" = "تاريخ انتهاء الصلاحية (شهر / سنة) *";
+
+/* Class = "UILabel"; text = "Add Your Card Details"; ObjectID = "jl4-Jg-i7W"; */
+"jl4-Jg-i7W.text" = "أضف تفاصيل بطاقتك";
+
+/* Class = "UIButton"; normalTitle = "Use this Card"; ObjectID = "kbf-2J-KRp"; */
+"kbf-2J-KRp.normalTitle" = "استخدم هذه البطاقة";
+
+/* Class = "UILabel"; text = "CARD DETAILS"; ObjectID = "ojp-en-eGc"; */
+"ojp-en-eGc.text" = "معلومات البطاقة";
+
+/* Class = "UITextField"; placeholder = "CVV*"; ObjectID = "uXH-2R-5Ov"; */
+"uXH-2R-5Ov.placeholder" = "CVV *";

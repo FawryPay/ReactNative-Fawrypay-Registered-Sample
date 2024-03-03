@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Please select"; ObjectID = "GdZ-yi-cKx"; */
+"GdZ-yi-cKx.text" = "Please select";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "MhL-tq-sHn"; */
+"MhL-tq-sHn.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "14 Street Name, area, city, country, Floor 6 Apartment 4"; ObjectID = "PSa-W2-FaD"; */
+"PSa-W2-FaD.text" = "14 Street Name, area, city, country, Floor 6 Apartment 4";
+
+/* Class = "UILabel"; text = "Are you sure, you want to remove this address?"; ObjectID = "XfQ-vI-E4C"; */
+"XfQ-vI-E4C.text" = "Are you sure, you want to remove this address?";
+
+/* Class = "UIButton"; normalTitle = "Remove Address"; ObjectID = "fG3-9A-TMs"; */
+"fG3-9A-TMs.normalTitle" = "Remove Address";

@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Enter"; ObjectID = "ILe-aZ-HHZ"; */
+"ILe-aZ-HHZ.placeholder" = "Enter";
+
+/* Class = "UILabel"; text = "135 EGP"; ObjectID = "IRV-a7-xMT"; */
+"IRV-a7-xMT.text" = "- pts";
+
+/* Class = "UILabel"; text = "Remaining 9,000 Point = 75 EGP"; ObjectID = "Lfm-xq-2TC"; */
+"Lfm-xq-2TC.text" = "-";
+
+/* Class = "UILabel"; text = "Number of points to redeem"; ObjectID = "bco-0G-EXf"; */
+"bco-0G-EXf.text" = "Number of points to redeem";
+
+/* Class = "UILabel"; text = "="; ObjectID = "llh-GD-d9m"; */
+"llh-GD-d9m.text" = "=";
+
+/* Class = "UILabel"; text = "Add Voucher"; ObjectID = "qWu-51-EWl"; */
+"qWu-51-EWl.text" = "Add Voucher";
+
+/* Class = "UITextField"; placeholder = "Voucher Code"; ObjectID = "sxu-tq-xbG"; */
+"sxu-tq-xbG.placeholder" = "Voucher Code";

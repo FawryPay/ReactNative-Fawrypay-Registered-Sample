@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "B2z-cB-lib"; */
+"B2z-cB-lib.normalTitle" = "تم";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "NTB-kp-7vx"; */
+"NTB-kp-7vx.normalTitle" = "تم";
+
+/* Class = "UILabel"; text = "QR CODE"; ObjectID = "QnS-Aq-GJ5"; */
+"QnS-Aq-GJ5.text" = "رمز الاستجابة السريعة";
+
+/* Class = "UILabel"; text = "PAYMENT"; ObjectID = "Zpk-II-hiZ"; */
+"Zpk-II-hiZ.text" = "دفع";
+
+/* Class = "UILabel"; text = "RECEIPT"; ObjectID = "cIX-aF-ZDr"; */
+"cIX-aF-ZDr.text" = "الإيصال";
+"00p-hE-B6d.normalTitle" = "نقاط الولاء";
+"88k-sq-OeM.normalTitle" = "قسيمة خصم";
+

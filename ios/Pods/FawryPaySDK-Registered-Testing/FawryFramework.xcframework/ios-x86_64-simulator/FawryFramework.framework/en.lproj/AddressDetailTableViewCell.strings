@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "7Bj-Rm-Omh"; */
+"7Bj-Rm-Omh.text" = "Address";
+
+/* Class = "UILabel"; text = "010 000 000 00"; ObjectID = "Frl-uF-buG"; */
+"Frl-uF-buG.text" = "010 000 000 00";
+
+/* Class = "UILabel"; text = "14 Street Name, Area, city, ountry, Floor 6, Appartment 4"; ObjectID = "IbJ-tK-ieF"; */
+"IbJ-tK-ieF.text" = "14 Street Name, Area, city, ountry, Floor 6, Appartment 4";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Tzn-y5-MJx"; */
+"Tzn-y5-MJx.text" = "Name";
+
+/* Class = "UILabel"; text = "Mohammed Amr"; ObjectID = "bGV-LV-g2e"; */
+"bGV-LV-g2e.text" = "Mohammed Amr";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "c4C-QJ-bym"; */
+"c4C-QJ-bym.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Default Address"; ObjectID = "wFS-5h-Voz"; */
+"wFS-5h-Voz.text" = "Default Address";

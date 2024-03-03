@@ -1,0 +1,17 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "B2z-cB-lib"; */
+"B2z-cB-lib.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "NTB-kp-7vx"; */
+"NTB-kp-7vx.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "QR CODE"; ObjectID = "QnS-Aq-GJ5"; */
+"QnS-Aq-GJ5.text" = "QR CODE";
+
+/* Class = "UILabel"; text = "PAYMENT"; ObjectID = "Zpk-II-hiZ"; */
+"Zpk-II-hiZ.text" = "PAYMENT";
+
+/* Class = "UILabel"; text = "RECEIPT"; ObjectID = "cIX-aF-ZDr"; */
+"cIX-aF-ZDr.text" = "RECEIPT";
+"00p-hE-B6d.normalTitle" = "Loyalty points";
+"88k-sq-OeM.normalTitle" = "Gift voucher";

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Save Card"; ObjectID = "EOR-Mm-JIZ"; */
+"EOR-Mm-JIZ.text" = "حفظ البطاقة";
+
+/* Class = "UIButton"; normalTitle = "Confirm Payment"; ObjectID = "KEF-eV-OTF"; */
+"KEF-eV-OTF.normalTitle" = "تم الدفع";
+
+/* Class = "UILabel"; text = "Expiry Date(mm/yy)*"; ObjectID = "NwW-s1-mhm"; */
+"NwW-s1-mhm.text" = "تاريخ الانتهاء(mm/yy)*";
+
+/* Class = "UILabel"; text = "Card Number*"; ObjectID = "h1J-0p-hbw"; */
+"h1J-0p-hbw.text" = "رقم البطاقة*";
+
+/* Class = "UILabel"; text = "Add Your Card Details"; ObjectID = "oSM-Pd-ppm"; */
+"oSM-Pd-ppm.text" = "أضف تفاصيل بطاقتك";
+
+/* Class = "UILabel"; text = "CVV*"; ObjectID = "vLX-tQ-KY5"; */
+"vLX-tQ-KY5.text" = "CVV*";

@@ -1,0 +1,33 @@
+{
+  "name": "rn-fawry-pay-sdk",
+  "version": "0.0.2",
+  "summary": "This is the only official Fawrypay Registered SDK package for React Native",
+  "homepage": "https://github.com/FawryPay/ReactNative-Fawrypay-Registered-Sample#readme",
+  "license": "MIT",
+  "authors": "Milad Metias <milad.metias@fawry.com> (https://github.com/FWMilad)",
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "ios/**/*.{h,m,mm,swift}",
+    "Classes/**/*"
+  ],
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "FawryPaySDK-Registered-Testing": [
+      "0.1.16"
+    ]
+  },
+  "swift_versions": "5.0",
+  "appspecs": [
+    {
+      "name": "App"
+    }
+  ],
+  "swift_version": "5.0"
+}

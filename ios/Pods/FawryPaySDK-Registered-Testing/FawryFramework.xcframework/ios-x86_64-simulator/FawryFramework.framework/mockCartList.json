@@ -1,0 +1,38 @@
+{
+    "id": 295348,
+    "customerName": "Ankit Goyal",
+    "totalOrdersCount": 3,
+    "totalOrdersAmt": 0,
+    "nationalityCode": "EGY",
+    "appLanguage": "en-gb",
+    "mobileNumber": "01226968664",
+    "email": "ankit.goyal@fawry.com",
+    "merchantAccountNumber": "1tSa6uxz2nTwlaAmt38enA==",
+    "customerStatus": "ACTIVE",
+    "cartList": [
+        {
+            "id": 1,
+            "productImage": "",
+            "productTitle": "Iced Latte",
+            "productDescription": "Skimmed Milk, Extra Vanilla Flavour",
+            "price": 70.00,
+            "quantity": 2,
+        },
+        {
+            "id": 2,
+            "productImage": "",
+            "productTitle": "Strawberry Cheesecake",
+            "productDescription": "",
+            "price": 50.00,
+            "quantity": 1,
+        },
+        {
+            "id": 3,
+            "productImage": "",
+            "productTitle": "Cold Drink",
+            "productDescription": "Chilled and Ice cubes",
+            "price": 20.00,
+            "quantity": 2,
+        }
+    ]
+}

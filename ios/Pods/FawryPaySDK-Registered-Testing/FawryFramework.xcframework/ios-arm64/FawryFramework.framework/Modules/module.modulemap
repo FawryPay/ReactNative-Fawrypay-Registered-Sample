@@ -1,0 +1,11 @@
+framework module FawryFramework {
+  umbrella header "FawryFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module FawryFramework.Swift {
+  header "FawryFramework-Swift.h"
+  requires objc
+}

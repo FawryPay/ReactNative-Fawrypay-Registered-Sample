@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Card Number*"; ObjectID = "D7L-P4-7Yj"; */
+"D7L-P4-7Yj.placeholder" = "Card Number*";
+
+/* Class = "UITextField"; placeholder = "Confirm CVV*"; ObjectID = "bmd-zz-t4L"; */
+"bmd-zz-t4L.placeholder" = "Confirm CVV*";
+
+/* Class = "UITextField"; placeholder = "Expiry Date(mm/yy)*"; ObjectID = "g8A-qU-b3P"; */
+"g8A-qU-b3P.placeholder" = "Expiry Date(mm/yy)*";
+
+/* Class = "UILabel"; text = "Add Your Card Details"; ObjectID = "jl4-Jg-i7W"; */
+"jl4-Jg-i7W.text" = "Add Your Card Details";
+
+/* Class = "UIButton"; normalTitle = "Use this Card"; ObjectID = "kbf-2J-KRp"; */
+"kbf-2J-KRp.normalTitle" = "Use this Card";
+
+/* Class = "UILabel"; text = "CARD DETAILS"; ObjectID = "ojp-en-eGc"; */
+"ojp-en-eGc.text" = "CARD DETAILS";
+
+/* Class = "UITextField"; placeholder = "CVV*"; ObjectID = "uXH-2R-5Ov"; */
+"uXH-2R-5Ov.placeholder" = "CVV*";

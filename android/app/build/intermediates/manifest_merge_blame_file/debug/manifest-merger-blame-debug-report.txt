@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/ahmedkamal/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/ahmedkamal/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:12:5-81
+14-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:13:5-79
+15-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:16:5-79
+16-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:16:22-76
+17    <uses-permission android:name="com.emeint.android.mwallet2.NotificationReceiverPermission" />
+17-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:17:5-98
+17-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:17:22-95
+18
+19    <queries>
+19-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:7:5-13:15
+20        <intent>
+20-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:8:9-12:18
+21            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+21-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:9:13-76
+21-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:9:21-73
+22
+23            <data android:mimeType="*/*" />
+23-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:11:13-44
+23-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:11:19-41
+24        </intent>
+25    </queries>
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:5:5-24:19
+32        android:name="com.example.MainApplication"
+32-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:6:7-38
+33        android:allowBackup="false"
+33-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:10:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.7.0] /Users/ahmedkamal/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:8:7-41
+37        android:label="@string/app_name"
+37-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:7:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:9:7-52
+39        android:supportsRtl="true"
+39-->[com.github.grapesnberries:curlloggerinterceptor:0.1] /Users/ahmedkamal/.gradle/caches/transforms-3/5515beea72e962b5ebb34162b45f234b/transformed/jetified-curlloggerinterceptor-0.1/AndroidManifest.xml:14:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme"
+41-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:11:7-38
+42        android:usesCleartextTraffic="true" >
+42-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:8:9-44
+43        <activity
+43-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:11:9-111
+44            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+44-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:11:19-83
+45            android:exported="false" />
+45-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/debug/AndroidManifest.xml:11:84-108
+46        <activity
+46-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:12:7-23:18
+47            android:name="com.example.MainActivity"
+47-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:13:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:15:9-118
+49            android:exported="true"
+49-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:18:9-32
+50            android:label="@string/app_name"
+50-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:14:9-41
+51            android:launchMode="singleTask"
+51-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:16:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:17:9-51
+53            <intent-filter>
+53-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:19:9-22:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:20:13-65
+54-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:20:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:21:13-73
+56-->/Users/ahmedkamal/Projects/ReactNative/Fawrypay/ReactNative-Registered-Sample/android/app/src/main/AndroidManifest.xml:21:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:23:9-27:48
+60            android:name="com.fawry.fawrypay.ui.activities.choose_location_activity.ChooseLocationActivity"
+60-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:24:13-108
+61            android:exported="false"
+61-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:25:13-37
+62            android:screenOrientation="portrait"
+62-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:26:13-49
+63            android:theme="@style/BaseTheme" />
+63-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:27:13-45
+64        <activity
+64-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:28:9-31:48
+65            android:name="com.fawry.fawrypay.ui.activities.choose_location_activity.ChooseGeoLocationActivity"
+65-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:29:13-111
+66            android:screenOrientation="portrait"
+66-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:30:13-49
+67            android:theme="@style/BaseTheme" />
+67-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:31:13-45
+68        <activity
+68-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:32:9-35:48
+69            android:name="com.fawry.fawrypay.ui.activities.add_anonymous_card_activity.AddAnonymousCardActivity"
+69-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:33:13-113
+70            android:screenOrientation="portrait"
+70-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:34:13-49
+71            android:theme="@style/BaseTheme" />
+71-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:35:13-45
+72        <activity
+72-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:36:9-39:48
+73            android:name="com.fawry.fawrypay.ui.activities.sacn_qr_activity.QrActivity"
+73-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:37:13-88
+74            android:screenOrientation="portrait"
+74-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:38:13-49
+75            android:theme="@style/BaseTheme" />
+75-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:39:13-45
+76        <activity
+76-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:40:9-43:48
+77            android:name="com.fawry.fawrypay.ui.activities.receipt_activity.ReceiptActivity"
+77-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:41:13-93
+78            android:screenOrientation="portrait"
+78-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:42:13-49
+79            android:theme="@style/BaseTheme" />
+79-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:43:13-45
+80        <activity
+80-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:44:9-48:55
+81            android:name="com.fawry.fawrypay.ui.BaseActivity"
+81-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:45:13-62
+82            android:screenOrientation="portrait"
+82-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:46:13-49
+83            android:theme="@style/BaseTheme"
+83-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:47:13-45
+84            android:windowSoftInputMode="adjustPan" />
+84-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:48:13-52
+85        <activity
+85-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:49:9-55:55
+86            android:name="com.fawry.fawrypay.ui.activities.MigsAuthenticationActivity"
+86-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:50:13-87
+87            android:configChanges="orientation|screenSize|locale|keyboardHidden"
+87-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:51:13-81
+88            android:exported="false"
+88-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:52:13-37
+89            android:screenOrientation="portrait"
+89-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:53:13-49
+90            android:theme="@style/BaseTheme"
+90-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:54:13-45
+91            android:windowSoftInputMode="adjustPan" />
+91-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:55:13-52
+92        <activity
+92-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:56:9-59:48
+93            android:name="com.fawry.fawrypay.ui.activities.picker_activity.PickerActivity"
+93-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:57:13-91
+94            android:screenOrientation="portrait"
+94-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:58:13-49
+95            android:theme="@style/BaseTheme" />
+95-->[com.fawry.fawrypay:registered:0.0.42] /Users/ahmedkamal/.gradle/caches/transforms-3/3e23c1dc488e8bdd45bbeff015b1ad75/transformed/jetified-registered-0.0.42/AndroidManifest.xml:59:13-45
+96        <activity
+96-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:16:9-21:52
+97            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+97-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:17:13-76
+98            android:label="@string/chucker_name"
+98-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:18:13-49
+99            android:launchMode="singleTask"
+99-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:19:13-44
+100            android:taskAffinity="com.chuckerteam.chucker.task"
+100-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:20:13-64
+101            android:theme="@style/Chucker.Theme" />
+101-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:21:13-49
+102        <activity
+102-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:22:9-25:52
+103            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+103-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:23:13-95
+104            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+104-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:24:13-90
+105            android:theme="@style/Chucker.Theme" />
+105-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:25:13-49
+106        <activity
+106-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:26:9-29:52
+107            android:name="com.chuckerteam.chucker.internal.ui.throwable.ThrowableActivity"
+107-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:27:13-91
+108            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+108-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:28:13-90
+109            android:theme="@style/Chucker.Theme" />
+109-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:29:13-49
+110
+111        <service
+111-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:31:9-33:40
+112            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+112-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:32:13-89
+113            android:exported="false" />
+113-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:33:13-37
+114
+115        <provider
+115-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:35:9-43:20
+116            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+116-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:36:13-88
+117            android:authorities="com.example.com.chuckerteam.chucker.provider"
+117-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:37:13-84
+118            android:exported="false"
+118-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:38:13-37
+119            android:grantUriPermissions="true" >
+119-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:39:13-47
+120            <meta-data
+120-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:40:13-42:66
+121                android:name="android.support.FILE_PROVIDER_PATHS"
+121-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:41:17-67
+122                android:resource="@xml/chucker_provider_paths" />
+122-->[com.github.chuckerteam.chucker:library:3.5.2] /Users/ahmedkamal/.gradle/caches/transforms-3/5ab9fd74ef4c7fa7d2befc8e242e53f4/transformed/jetified-library-3.5.2/AndroidManifest.xml:42:17-63
+123        </provider>
+124
+125        <meta-data
+125-->[com.facebook.soloader:soloader:0.10.5] /Users/ahmedkamal/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+126            android:name="com.facebook.soloader.enabled"
+126-->[com.facebook.soloader:soloader:0.10.5] /Users/ahmedkamal/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+127            android:value="false" />
+127-->[com.facebook.soloader:soloader:0.10.5] /Users/ahmedkamal/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+128
+129        <activity
+129-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:14:9-20:20
+130            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+130-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:15:13-91
+131            android:exported="false"
+131-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:16:13-37
+132            android:label="@string/places_autocomplete_label"
+132-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:17:13-62
+133            android:theme="@style/PlacesAutocompleteOverlay"
+133-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:18:13-61
+134            android:windowSoftInputMode="adjustResize" >
+134-->[com.google.android.libraries.places:places:2.2.0] /Users/ahmedkamal/.gradle/caches/transforms-3/eddcd8390fd654da024dc616c2a075d8/transformed/jetified-places-2.2.0/AndroidManifest.xml:19:13-55
+135        </activity>
+136
+137        <service
+137-->[androidx.room:room-runtime:2.3.0] /Users/ahmedkamal/.gradle/caches/transforms-3/f2ad329bd2968fd37029d49971c006c1/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+138            android:name="androidx.room.MultiInstanceInvalidationService"
+138-->[androidx.room:room-runtime:2.3.0] /Users/ahmedkamal/.gradle/caches/transforms-3/f2ad329bd2968fd37029d49971c006c1/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+139            android:directBootAware="true"
+139-->[androidx.room:room-runtime:2.3.0] /Users/ahmedkamal/.gradle/caches/transforms-3/f2ad329bd2968fd37029d49971c006c1/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+140            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+140-->[androidx.room:room-runtime:2.3.0] /Users/ahmedkamal/.gradle/caches/transforms-3/f2ad329bd2968fd37029d49971c006c1/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+141        <uses-library
+141-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+142            android:name="org.apache.http.legacy"
+142-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+143            android:required="false" />
+143-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+153
+154        <provider
+154-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+155            android:name="androidx.startup.InitializationProvider"
+155-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+156            android:authorities="com.example.androidx-startup"
+156-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+157            android:exported="false" >
+157-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+158            <meta-data
+158-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+159                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+159-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+160                android:value="androidx.startup" />
+160-->[androidx.emoji2:emoji2:1.0.0] /Users/ahmedkamal/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+161            <meta-data
+161-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ahmedkamal/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+162                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+162-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ahmedkamal/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+163                android:value="androidx.startup" />
+163-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ahmedkamal/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+164        </provider>
+165
+166        <service
+166-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+167            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+167-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+168            android:exported="false" >
+168-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+169            <meta-data
+169-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+170                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+170-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+171                android:value="cct" />
+171-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/9f7f23288e7b1d6a3f21195344b327fa/transformed/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+172        </service>
+173        <service
+173-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+174            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+174-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+175            android:exported="false"
+175-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+176            android:permission="android.permission.BIND_JOB_SERVICE" >
+176-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+177        </service>
+178
+179        <receiver
+179-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+180-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+181            android:exported="false" />
+181-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/ahmedkamal/.gradle/caches/transforms-3/6a74e7daee05c79d34cb47b511d8038e/transformed/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+182    </application>
+183
+184</manifest>

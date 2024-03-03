@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "ADD NEW ADDRESS"; ObjectID = "67L-jV-HFF"; */
+"67L-jV-HFF.text" = "أضف عنوانًا جديدًا";
+
+/* Class = "UILabel"; text = "Choose Delivery Location"; ObjectID = "6hG-I6-06r"; */
+"6hG-I6-06r.text" = "اختر موقع التسليم";
+
+/* Class = "UILabel"; text = "SELECT ADDRESS"; ObjectID = "ANb-Oa-YP6"; */
+"ANb-Oa-YP6.text" = "حدد العنوان";
+
+/* Class = "UILabel"; text = "MY ADDRESS BOOK"; ObjectID = "LaY-s1-zhG"; */
+"LaY-s1-zhG.text" = "كتاب عنواني";
+
+/* Class = "UITextField"; placeholder = "Search for area, street name"; ObjectID = "UZ4-lo-ur3"; */
+"UZ4-lo-ur3.placeholder" = "ابحث عن المنطقة واسم الشارع";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "VBc-We-2l1"; */
+"VBc-We-2l1.normalTitle" = "يلغي";
+
+/* Class = "UIButton"; normalTitle = "Save Address"; ObjectID = "f8P-9S-EPR"; */
+"f8P-9S-EPR.normalTitle" = "حفظ العنوان";
+
+/* Class = "UIButton"; normalTitle = "Proceed to Pay"; ObjectID = "gId-Mm-O7E"; */
+"gId-Mm-O7E.normalTitle" = "المضي قدما في الدفع";
+
+/* Class = "UIButton"; normalTitle = "Add New Address"; ObjectID = "kxH-6r-NxM"; */
+"kxH-6r-NxM.normalTitle" = "أضف عنوان جديد";

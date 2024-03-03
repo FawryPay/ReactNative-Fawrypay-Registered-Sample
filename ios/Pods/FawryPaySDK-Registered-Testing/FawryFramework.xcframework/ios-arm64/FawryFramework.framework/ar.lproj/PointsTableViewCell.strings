@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "1200 Point = 200 EGP"; ObjectID = "6Ng-NL-RzD"; */
+"6Ng-NL-RzD.text" = "1200 Point = 200 EGP";
+
+/* Class = "UILabel"; text = "# 000 000"; ObjectID = "Dou-rC-6fp"; */
+"Dou-rC-6fp.text" = "# 000 000";
+
+/* Class = "UILabel"; text = "Date & Time"; ObjectID = "WXG-eH-I7K"; */
+"WXG-eH-I7K.text" = "Date & Time";
+
+/* Class = "UILabel"; text = "20 Aug 2020 . 10:00 PM"; ObjectID = "XOA-Ip-Sd8"; */
+"XOA-Ip-Sd8.text" = "20 Aug 2020 . 10:00 PM";
+
+/* Class = "UILabel"; text = "Service"; ObjectID = "dCZ-OL-kuC"; */
+"dCZ-OL-kuC.text" = "Service";
+
+/* Class = "UILabel"; text = "Branch"; ObjectID = "jL9-as-dDj"; */
+"jL9-as-dDj.text" = "Branch";
+
+/* Class = "UILabel"; text = "Delivered To Dokki"; ObjectID = "l53-Hv-wUt"; */
+"l53-Hv-wUt.text" = "Delivered To Dokki";
+
+/* Class = "UILabel"; text = "zamalek"; ObjectID = "ssv-fN-NNy"; */
+"ssv-fN-NNy.text" = "zamalek";
+
+/* Class = "UILabel"; text = "Redeemed"; ObjectID = "yzg-Ri-60E"; */
+"yzg-Ri-60E.text" = "Redeemed";
