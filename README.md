@@ -1,6 +1,7 @@
-# FawryPay React Native SDK Sample Guide
+# FawryPay React Native Registered SDK Sample Guide
 
-Welcome to the FawryPay React Native SDK Sample Guide. This comprehensive guide will walk you through every step of integrating the FawryPay SDK into your React Native application, allowing for seamless payment methods and card management.
+Welcome to the FawryPay React Native SDK Sample Guide. This comprehensive guide will walk you through every step of integrating the FawryPay Registered SDK into your React Native application, allowing for seamless payment methods , card management and address management.
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,14 +10,16 @@ Welcome to the FawryPay React Native SDK Sample Guide. This comprehensive guide 
   - [Step 1: Create a FawryPay Account](#step-1-create-a-fawrypay-account)
   - [Step 2: Initialize the SDK](#step-2-initialize-the-sdk)
   - [Step 3: Present Payment Options](#step-3-present-payment-options)
-  - [Step 4: Present Card Manager (Optional)](#step-4-present-card-manager-optional)
-  - [Step 5: Callbacks (Optional)](#step-5-callbacks-optional)
+  - [Step 4: Present Card Manager](#step-4-present-card-manager)
+  - [Step 5: Present Address Manager](#step-5-present-address-manager)
+  - [Step 6: Callbacks](#step-6-callbacks)
 - [Platform-specific Notes](#platform-specific-notes)
   - [Android](#android)
   - [iOS](#ios)
 - [Customizing UI Colors](#customizing-ui-colors)
 - [Parameters Explained](#parameters-explained)
 - [Sample Project](#sample-project)
+
 
 ## Introduction
 
@@ -37,13 +40,13 @@ To get started with the FawryPay SDK, follow these installation steps:
 To install the FawryPay SDK, use npm:
 
 ```bash
-npm install @fawry_pay/rn-fawry-pay-sdk --save
+npm install @fawry_pay/rn-fawry-pay-registered-sdk --save
 ```
 
 For React Native versions prior to 0.60, link the package using `react-native link`:
 
 ```bash
-react-native link @fawry_pay/rn-fawry-pay-sdk
+react-native link @fawry_pay/rn-fawry-pay-registered-sdk
 ```
 
 For React Native versions 0.60 and above, autolinking will handle linking.
@@ -59,45 +62,83 @@ Before utilizing the FawryPay SDK, you must have a FawryPay account. Visit the F
 In your React Native project, import the necessary components and configure the FawryPay SDK with your items, merchant and customer information:
 
 ```javascript
-import React, { useEffect } from 'react';
-import { TouchableOpacity, Text, StyleSheet, View, Platform } from 'react-native';
-import * as Fawry from '@fawry_pay/rn-fawry-pay-sdk';
+import * as Fawry from '@fawry_pay/rn-fawry-pay-registered-sdk';
 import uuid from 'react-native-uuid';
 
-const cartItems : Fawry.BillItems[] = [
-  { itemId: 'item1', description: 'Item 1 Description', quantity: '10', price: '30' },
-  { itemId: 'item2', description: 'Item 2 Description', quantity: '5', price: '20' },
-  { itemId: 'item3', description: 'Item 3 Description', quantity: '1', price: '10' },
+const cartItems: Fawry.BillItems[] = [
+  {
+    itemId: 'product123',
+    description: 'Smartphone Model X',
+    quantity: '1',
+    price: '800',
+    originalPrice: '1000',
+    tax: 12.5
+  },
+  {
+    itemId: 'laptop456',
+    description: 'Laptop Model Y',
+    quantity: '1',
+    price: '1200',
+    originalPrice: '1500',
+    tax: 9.8
+  },
+  {
+    itemId: 'camera789',
+    description: 'Digital Camera Z',
+    quantity: '2',
+    price: '400',
+    originalPrice: '600',
+    tax: 8.5
+  },
 ];
 
-const merchant : Fawry.MerchantInfo = {
-  merchantCode: 'YOUR MERCHANT CODE',
-  merchantSecretCode: 'YOUR SECRET CODE',
+const merchant: Fawry.MerchantInfo = {
+  merchantCode: "YOUR_REAL_MERCHANT_CODE",
+  subMerchantCode: "YOUR_REAL_SUBMERCHANT_CODE",
+  merchantSecretCode: "YOUR_REAL_SECURE_KEY",
   merchantRefNum: uuid.v4().toString(),
 };
 
-const customer : Fawry.CustomerInfo = {
+const customer: Fawry.CustomerInfo = {
   customerName: 'Ahmed Kamal',
   customerMobile: '+1234567890',
-  customerEmail: 'ahmed.kamal@example.com',
-  customerProfileId: '12345',
+  customerEmail: 'ahmed@example.com',
+  customerProfileId: 'profile123',
+  customerCif: 'cif456',
+  customerToken: "token789",
 };
 
-const fawryConfig : Fawry.FawryLaunchModel = {
-  baseUrl: 'https://atfawry.fawrystaging.com/',
-  lang: Fawry.FawryLanguages.ENGLISH,
-  signature: '',
-  allow3DPayment: false,
-  skipReceipt: false,
-  skipLogin: true,
-  payWithCardToken: true,
-  authCaptureMode: false,
-  allowVoucher: true,
-  items: cartItems,
-  merchantInfo: merchant,
+const shippingAddress: Fawry.Address = {
+  buildingNumber: '20',
+  floorNumber: 5,
+  apartmentNumber: '15',
+  receiverName: 'John Doe',
+  receiverMobile: '+9876543210',
+};
+
+const fawryConfig: Fawry.FawryLaunchModel = {
+  addressHierarchy: Fawry.AddressHierarchy.MATRIX,
+  allow3DPayment: true,
+  apiPath: '',
+  baseUrl: '',
+  beid: '',
+  branchCode: '',
+  branchName: '',
   customerInfo: customer,
+  items: cartItems,
+  lang: Fawry.FawryLanguages.ENGLISH,
+  merchantInfo: merchant,
+  scheduledTime: new Date().getTime().toString(),
+  serviceTypeCode: '',
+  shippingAddress: shippingAddress,
+  showLoyaltyContainer: true,
+  showTipsView: false,
+  showVoucherContainer: true,
+  skipReceipt: false,
+  tableId: 1,
 };
 // Continue with the code...
+
 ```
 
 ### Step 3: Present Payment Options
@@ -106,10 +147,31 @@ To initiate the payment process, use the `startPayment` function to open the pay
 
 ```javascript
 // Launch the payment flow
-Fawry.startPayment(fawryConfig);
+const updatedMerchant = { ...merchant, merchantRefNum: uuid.v4().toString() };
+Fawry.startPayment(
+    fawryConfig.addressHierarchy,
+    fawryConfig.allow3DPayment,
+    fawryConfig.apiPath,
+    fawryConfig.baseUrl,
+    fawryConfig.customerInfo,
+    fawryConfig.items,
+    fawryConfig.lang,
+    updatedMerchant,
+    fawryConfig.showLoyaltyContainer,
+    fawryConfig.showTipsView,
+    fawryConfig.showVoucherContainer,
+    fawryConfig.skipReceipt,
+    fawryConfig.beid,
+    fawryConfig.branchCode,
+    fawryConfig.branchName,
+    fawryConfig.scheduledTime,
+    fawryConfig.serviceTypeCode,
+    fawryConfig.shippingAddress,
+    fawryConfig.tableId
+);
 ```
 
-### Step 4: Present Card Manager (Optional)
+### Step 4: Present Card Manager
 
 If you want to allow your users to manage their saved cards, you can use the `openCardsManager` function:
 
@@ -117,23 +179,61 @@ If you want to allow your users to manage their saved cards, you can use the `op
 // Open the card manager flow
 Fawry.openCardsManager(
   fawryConfig.baseUrl,
-  fawryConfig.language,
+  fawryConfig.lang,
   fawryConfig.merchantInfo,
   fawryConfig.customerInfo
 );
 ```
 
-### Step 5: Callbacks (Optional)
+### Step 5: Present Address Manager
+
+If you want to allow your users to manage their saved addresses, you can use the `openAddressManager` function:
+
+```javascript
+// Open the address manager flow
+Fawry.openAddressManager(
+    fawryConfig.baseUrl,
+    fawryConfig.lang,
+    fawryConfig.merchantInfo,
+    fawryConfig.customerInfo,
+    fawryConfig.beid,
+    fawryConfig.addressHierarchy
+);
+```
+
+### Step 6: Callbacks
 
 The FawryPay SDK provides event listeners that you can use to receive payment and card manager status. Here's how to set up event listeners:
 
 ```javascript
 // Define event listeners for payment and card manager events
 const eventListeners = [
-  { eventName: Fawry.FawryCallbacks.FAWRY_EVENT_PAYMENT_COMPLETED, listener: (data: any) => console.log(Fawry.FawryCallbacks.FAWRY_EVENT_PAYMENT_COMPLETED, data) },
-  { eventName: Fawry.FawryCallbacks.FAWRY_EVENT_ON_SUCCESS, listener: (data: any) => console.log(Fawry.FawryCallbacks.FAWRY_EVENT_ON_SUCCESS, data) },
-  { eventName: Fawry.FawryCallbacks.FAWRY_EVENT_ON_FAIL, listener: (error: any) => console.log(Fawry.FawryCallbacks.FAWRY_EVENT_ON_FAIL, error) },
-  { eventName: Fawry.FawryCallbacks.FAWRY_EVENT_CardManager_FAIL, listener: (error: any) => console.log(Fawry.FawryCallbacks.FAWRY_EVENT_CardManager_FAIL, error) },
+  {
+    eventName: Fawry.FawryCallbacks.FAWRY_EVENT_PAYMENT_COMPLETED,
+    listener: (data: any) =>
+      console.log(Fawry.FawryCallbacks.FAWRY_EVENT_PAYMENT_COMPLETED, data),
+  },
+  {
+    eventName: Fawry.FawryCallbacks.FAWRY_EVENT_ON_SUCCESS,
+    listener: (data: any) =>
+      console.log(Fawry.FawryCallbacks.FAWRY_EVENT_ON_SUCCESS, data),
+  },
+  {
+    eventName: Fawry.FawryCallbacks.FAWRY_EVENT_ON_FAIL,
+    listener: (error: any) =>
+      console.log(Fawry.FawryCallbacks.FAWRY_EVENT_ON_FAIL, error),
+      
+  },
+  {
+    eventName: Fawry.FawryCallbacks.FAWRY_EVENT_CARD_MANAGER_FAIL,
+    listener: (error: any) =>
+      console.log(Fawry.FawryCallbacks.FAWRY_EVENT_CARD_MANAGER_FAIL, error),
+  },
+  {
+    eventName: Fawry.FawryCallbacks.FAWRY_EVENT_ADDRESS_MANAGER_FAIL,
+    listener: (error: any) =>
+      console.log(Fawry.FawryCallbacks.FAWRY_EVENT_ADDRESS_MANAGER_FAIL, error),
+  },
 ];
 
 // Attach event listeners
@@ -174,7 +274,7 @@ For Android integration, follow these additional steps:
      }
    ```
 
-These changes enable your Android project to resolve dependencies from the specified repositories, facilitating the installation and usage of the `@fawry_pay/rn-fawry-pay-sdk` package in your React Native application.
+These changes enable your Android project to resolve dependencies from the specified repositories, facilitating the installation and usage of the `@fawry_pay/rn-fawry-pay-registered-sdk` package in your React Native application.
 
 ### iOS
 
@@ -254,7 +354,7 @@ After adding this code snippet, remember to run `pod update` in your iOS directo
 
 ---
 
-These changes enable your iOS project to integrate the latest podfile without issues, facilitating the installation and usage of the `@fawry_pay/rn-fawry-pay-sdk` package in your React Native application.
+These changes enable your iOS project to integrate the latest podfile without issues, facilitating the installation and usage of the `@fawry_pay/rn-fawry-pay-registered-sdk` package in your React Native application.
 
 **Important Reminder:** If you're conducting tests on an Apple Silicon Mac, make sure that you're using the iPhone simulator with Rosetta. To do this, follow these steps: Open Xcode, go to `Product > Destination > Destination Architectures > Show Rosetta Destination`, and then select a Rosetta iPhone Simulator for running the application.
 
@@ -308,59 +408,75 @@ For iOS UI color customization:
    Then, add the `Style.plist` file to your Xcode project.
 
 ## Parameters Explained
+
+
 <br/>CustomerInfo
 
 | **PARAMETER**     | **TYPE** | **REQUIRED** | **DESCRIPTION**                                 | **EXAMPLE**                                        |
 |---------------|---------------|---------------|---------------|---------------|
-| customerName      | string   | optional     | \-                                              | Name Name                                          |
-| customerEmail     | string   | optional     | \-                                              | [email\@email.com](mailto:email@email.com){.email} |
-| customerMobile    | string   | optional     | \-                                              | +0100000000                                        |
-| customerProfileId | string   | optional     | mandatory in case of payments using saved cards | 1234                                               |
+| customerName      | string   | required     | The name of the customer.                        | Ahmed Kamal                                          |
+| customerEmail     | string   | required     | The email address of the customer.               | [email@example.com](mailto:email@example.com){.email} |
+| customerMobile    | string   | required     | The mobile number of the customer.               | +01012345678                                        |
+| customerProfileId | string   | required     | The profile ID of the customer. Mandatory in case of payments using saved cards. | 11111                                               |
+| customerCif       | string   | required     | The CIF of the customer. | -                                                   |
+| customerToken     | string   | required     | The authentication token of the customer.        | -                                                   |
 
 <br/>MerchantInfo
 
 | **PARAMETER**  | **TYPE** | **REQUIRED**        | **DESCRIPTION**                                                           | **EXAMPLE**           |
 |---------------|---------------|---------------|---------------|---------------|
-| merchantCode   | string   | required            | Merchant ID provided during FawryPay account setup.                       | +/IPO2sghiethhN6tMC== |
-| merchantRefNum | string   | required            | Merchant's transaction reference number is random 10 alphanumeric digits. | A1YU7MKI09            |
-| merchantSecretCode    | string   | required            | provided by support                                                       | 4b8jw3j2-8gjhfrc-4wc4-scde-453dek3d |
+| merchantCode   | string   | required            | Merchant ID provided during FawryPay account setup.                       | - |
+| subMerchantCode | string   | optional            | Sub-merchant code if applicable.                                          | - |
+| merchantSecretCode    | string   | required            | Merchant secret code provided by support.                                 | - |
+| merchantRefNum | string   | required            | Merchant's transaction reference number, generated dynamically.           | Could be generated using uuid.v4().toString()            |
 
 <br/>BillItems
 
-| **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** | **EXAMPLE**         |
-|---------------|---------------|---------------|---------------|---------------|
-| itemId        | string   | required     | \-              | 3w8io               |
-| description   | string   | optional     | \-              | This is description |
-| price         | string   | required     | \-              | 200.00              |
-| quantity      | string   | required     | \-              | 1                   |
+| **PARAMETER**    | **TYPE** | **REQUIRED** | **DESCRIPTION**                                       | **EXAMPLE**         |
+|------------------|----------|--------------|-------------------------------------------------------|---------------------|
+| itemId           | string   | required     | Unique identifier for the item.                        | item1               |
+| description      | string   | required     | Description of the item.                              | Item 1 Description |
+| price            | string   | required     | Price of the item.                                    | 300                 |
+| quantity         | string   | required     | Quantity of the item.                                 | 1                   |
+| originalPrice    | string   | required     | Original price of the item.                            | 500                 |
+| width            | string   | optional     | Width of the item.                                    | -                   |
+| height           | string   | optional     | Height of the item.                                   | -                   |
+| weight           | string   | optional     | Weight of the item.                                   | -                   |
+| variantCode      | string   | optional     | Variant code of the item.                             | -                   |
+| earningRuleId    | string   | optional     | Earning rule identifier for the item.                 | -                   |
+| imageUrl         | string   | optional     | URL for the item's image.                             | -                   |
+| specialRequest   | string   | optional     | Special request or additional information for the item. | -                 |
+| tax              | number   | required     | Tax percentage for the item.                          | 8.5                 |
 
 <br/>FawryLaunchModel
 
 | **PARAMETER**           | **TYPE**   | **REQUIRED** | **DESCRIPTION** | **EXAMPLE** |
 |---------------|---------------|---------------|---------------|---------------|
-| **CustomerInfo** | LaunchCustomerModel | optional | Customer information.         | \-          |
-| **MerchantInfo** | LaunchMerchantModel | required | Merchant information.         | \-          |
-| **BillItems**         | BillItems[]      | required       | Array of items which the user will buy, this array must be of type BillItems  | \-          |
-| signature               | String    | optional  | You can create your own signature by concatenate the following elements on the same order and hash the result using **SHA-256** as explained:"merchantCode + merchantRefNum + customerProfileId (if exists, otherwise insert"") + itemId + quantity + Price (in tow decimal format like '10.00') + Secure hash keyIn case of the order contains multiple items the list will be **sorted** by itemId and concatenated one by one for example itemId1+ Item1quantity + Item1price + itemId2 + Item2quantity + Item2price | \-          | 
-| allowVoucher            | Boolean  | optional - default value = false  | True if your account supports voucher code | \-          |
-| payWithCardToken        | Boolean   | required   | If true, the user will pay with a card token ( one of the saved cards or add new card to be saved )If false, the user will pay with card details without saving | \-   | 
-| allow3DPayment          | Boolean                 | optional - default value = false | to allow 3D secure payment make it "true" | \-    |
-| skipReceipt             | Boolean                 | optional - default value = false      | to skip receipt after payment trial      | \-          |
-| skipLogin               | Boolean                          | optional - default value = true  | to skip login screen in which we take email and mobile   | \-          |
-| authCaptureMode         | Boolean                          | optional - default value = false                                                                                                                                | depends on refund configuration: will be true when refund is enabled and false when refund is disabled                                                                                             | false       |
-| baseUrl          | String       | required | Provided by the support team.Use staging URL for testing and switch for production to go live. | https://atfawry.fawrystaging.com (staging) <br/><br/> https://atfawry.com (production) |     
-| lang       |  String | required | SDK language which will affect SDK's interface languages. | Fawry.FawryLanguages.ENGLISH  |   
-
-
-**Notes:**
-
--   **you can pass either signature or secureKey (in this case we will create the signature internally), knowing that if the 2 parameters are passed the secureKey will be ignored and the signature will be used.**
+| customerInfo | CustomerInfo | required | Customer information.         | -          |
+| merchantInfo | MerchantInfo | required | Merchant information.         | -          |
+| items        | BillItems[]      | required       | Array of items which the user will buy. | -          |
+| addressHierarchy | AddressHierarchy | required | Type of address hierarchy (MATRIX or GEOLOCATION). | MATRIX          |
+| allow3DPayment          | Boolean                 | required   | True if 3D secure payment is allowed. | true    |
+| apiPath               | String       | required | The API path for FawryPay. | fawrypay-api/api/          |
+| baseUrl          | String       | required | Fawry base URL. | https://atfawry.fawrystaging.com (staging) <br/><br/> https://atfawry.com (production) |     
+| beid                    | String       | required | Business Entity ID. | -          |
+| branchCode              | String       | required | Branch code. | - |
+| branchName              | String       | required | Branch name. |  - |
+| lang           | FawryLanguages       | required | SDK language which will affect SDK's interface languages. | Fawry.FawryLanguages.ENGLISH |
+| scheduledTime           | String       | required | Scheduled time for the payment. | - |
+| serviceTypeCode         | String       | required | Service type code. | PICKUP |
+| shippingAddress         | Address      | required | Shipping address details. | - |
+| showLoyaltyContainer    | Boolean      | required | Show loyalty container. | true |
+| showTipsView            | Boolean      | required | Show tips view. | false |
+| showVoucherContainer    | Boolean      | required | Show voucher container. | true |
+| skipReceipt             | Boolean      | required | Skip receipt after payment. | false |
+| tableId                 | Number       | required | Table ID. | 1 |
 
 
 ## Sample Project
 
 For a hands-on demonstration of Fawry SDK integration in a React Native app, explore our GitHub sample project:
 
-[**React Native Fawrypay Anonymous Sample**](https://github.com/FawryPay/ReactNative-Fawrypay-Anonymous-sample)
+[**React Native Fawrypay Registered Sample**](https://github.com/FawryPay/ReactNative-Fawrypay-Registered-Sample)
 
 Feel free to explore the sample project and leverage the guide to effortlessly integrate the Fawry SDK into your React Native application.
