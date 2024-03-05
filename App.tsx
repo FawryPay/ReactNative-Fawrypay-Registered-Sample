@@ -48,7 +48,7 @@ const customer: Fawry.CustomerInfo = {
 
 const shippingAddress: Fawry.Address = {
   buildingNumber: '123',
-  floorNumber: 5,
+  floorNumber: "5",
   apartmentNumber: '7',
   receiverName: 'Receiver Name',
   receiverMobile: '+9876543210',
@@ -142,8 +142,8 @@ const App = () => {
       fawryConfig.branchName,
       fawryConfig.scheduledTime,
       fawryConfig.serviceTypeCode,
+      fawryConfig.tableId,
       fawryConfig.shippingAddress,
-      fawryConfig.tableId
     );
   };
 
